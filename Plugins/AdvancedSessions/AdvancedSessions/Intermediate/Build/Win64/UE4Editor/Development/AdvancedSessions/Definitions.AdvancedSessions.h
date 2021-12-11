@@ -50,7 +50,7 @@
 #define UE_BUILD_DEVELOPMENT 1
 #define UE_IS_ENGINE_MODULE 0
 #define UE_PROJECT_NAME TeamRPG
-#define UE_TARGET_NAME UE4Editor
+#define UE_TARGET_NAME TeamRPGEditor
 #define WITH_ADVANCED_SESSIONS 1
 #define UE_MODULE_NAME "AdvancedSessions"
 #define UE_PLUGIN_NAME "AdvancedSessions"
