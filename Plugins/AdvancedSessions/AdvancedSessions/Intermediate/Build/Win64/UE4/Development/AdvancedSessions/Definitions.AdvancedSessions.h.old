@@ -1,4 +1,4 @@
-#undef ADVANCEDSTEAMSESSIONS_API
+#undef ADVANCEDSESSIONS_API
 #undef UE_IS_ENGINE_MODULE
 #undef DEPRECATED_FORGAME
 #define DEPRECATED_FORGAME DEPRECATED
@@ -35,13 +35,13 @@
 #define WITH_CEF3 1
 #define WITH_LIVE_CODING 1
 #define UE_LIVE_CODING_ENGINE_DIR "C:\\Program Files\\Epic Games\\UE_4.27\\Engine"
-#define UE_LIVE_CODING_PROJECT "C:\\Users\\ysh77\\Desktop\\YGLPROJECT\\TeamRPG\\TeamRPG.uproject"
+#define UE_LIVE_CODING_PROJECT "C:\\UE4_Projects\\TeamRPG\\TeamRPG.uproject"
 #define UBT_MODULE_MANIFEST "UE4.modules"
 #define UBT_MODULE_MANIFEST_DEBUGGAME "UE4-Win64-DebugGame.modules"
 #define UBT_COMPILED_PLATFORM Win64
 #define UBT_COMPILED_TARGET Game
 #define UE_APP_NAME "UE4"
-#define UE_ENGINE_DIRECTORY "../../../../../../../Program Files/Epic Games/UE_4.27/Engine/"
+#define UE_ENGINE_DIRECTORY "../../../../Program Files/Epic Games/UE_4.27/Engine/"
 #define NDIS_MINIPORT_MAJOR_VERSION 0
 #define WIN32 1
 #define _WIN32_WINNT 0x0601
@@ -55,9 +55,9 @@
 #define UE_IS_ENGINE_MODULE 0
 #define UE_PROJECT_NAME TeamRPG
 #define UE_TARGET_NAME TeamRPG
-#define WITH_ADVANCED_STEAM_SESSIONS 1
-#define UE_MODULE_NAME "AdvancedSteamSessions"
-#define UE_PLUGIN_NAME "AdvancedSteamSessions"
+#define WITH_ADVANCED_SESSIONS 1
+#define UE_MODULE_NAME "AdvancedSessions"
+#define UE_PLUGIN_NAME "AdvancedSessions"
 #define IMPLEMENT_ENCRYPTION_KEY_REGISTRATION() 
 #define IMPLEMENT_SIGNING_KEY_REGISTRATION() 
 #define DEPRECATED_FORGAME DEPRECATED
@@ -180,10 +180,5 @@
 #define AUDIOMIXER_API 
 #define TARGETPLATFORM_API 
 #define ANIMATIONCORE_API 
-#define WITH_ADVANCED_STEAM_SESSIONS 1
-#define ADVANCEDSTEAMSESSIONS_API 
 #define WITH_ADVANCED_SESSIONS 1
 #define ADVANCEDSESSIONS_API 
-#define STEAM_SDK_VER TEXT("1.51")
-#define STEAM_SDK_VER_PATH TEXT("Steamv151")
-#define ONLINESUBSYSTEMSTEAM_API 
